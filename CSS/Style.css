@@ -83,7 +83,7 @@ section {
     background-color: white;
     border-radius: 10px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -92,6 +92,12 @@ section {
 
 #blog {
     background-color: #DD0000;
+    color: white;
+}
+
+.aside-link a:hover {
+    background-color: #DD0000;
+    border: 2px solid #DD0000;
     color: white;
 }
 
