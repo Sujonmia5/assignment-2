@@ -98,49 +98,57 @@ section {
 /* playlist section */
 
 .container2 {
-    margin-left: 24px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    row-gap: 24px;
 }
 
-.playlist {
-    width: 300px;
-    height: 362px;
+.match {
+    width: 280px;
+    height: 200px;
     color: black;
-    border: 1px solid white;
+    border: 1px solid rgb(212, 205, 205);
     border-radius: 10px;
-    box-shadow: 2px 2px whitesmoke;
+    margin-left: 24px;
+    justify-content: center;
 }
 
-.playlist img {
-    width: 300px;
-    height: 175px;
+.flag {
+    width: 250px;
+    height: 56px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+
 }
 
-.playlist button {
+.flag span {
+    position: relative;
+    bottom: 40%;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.team-name {
+    width: 202px;
+    height: 60px;
     margin-top: 20px;
-    margin-left: 20px;
-    width: 100px;
-    height: 32px;
-    font-size: 16px;
-    font-weight: 600;
-    border: 1px solid black;
-    background-color: #ede3e3;
-    border-radius: 5px;
+    padding: 20px;
 }
 
-.playlist h4 {
-    font-size: 18px;
+h3 {
+    font-size: 20px;
     font-weight: 700;
-    margin-top: 15px;
-    margin-left: 20px;
+    text-align: center;
+    margin: 0%;
 }
 
-.time {
-    display: flex;
-    gap: 30px;
-    margin-left: 20px;
+p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0%;
+    margin-top: 10px;
 }
 
 footer {
