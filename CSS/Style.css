@@ -1,0 +1,315 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab&display=swap');
+
+body {
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* header style */
+.top-site {
+    background-color: #161616;
+    display: flex;
+    width: 81%;
+    height: 646px;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 10px;
+}
+
+.head {
+    width: 500px;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+.head h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.head p {
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.head button {
+    width: 187px;
+    height: 56px;
+    color: white;
+    background-color: #DD0000;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.player img {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
+
+/* section style */
+section {
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.container {
+    Width: 312px;
+    Height: 312px;
+    margin-left: 140px;
+    background-color: #161616;
+}
+
+.aside-link {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+    align-content: center;
+    margin: 30px;
+}
+
+.aside-link a {
+    width: 250px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+#blog {
+    background-color: #DD0000;
+    color: white;
+}
+
+/* playlist section */
+
+.container2 {
+    margin-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.playlist {
+    width: 300px;
+    height: 362px;
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px whitesmoke;
+}
+
+.playlist img {
+    width: 300px;
+    height: 175px;
+}
+
+.playlist button {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid black;
+    background-color: #ede3e3;
+    border-radius: 5px;
+}
+
+.playlist h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.time {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #161616;
+}
+
+.Goal h1 {
+    Width: 95px;
+    Height: 60px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    margin-left: 47%;
+}
+
+hr {
+    margin: 0%;
+    Width: 80%;
+    margin-left: 10%;
+    border-color: #ede3e34f;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    justify-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+@media only screen and (max-width:576px) {
+
+    /* head style for mobile device */
+
+    .top-site {
+        width: 334px;
+        height: 525px;
+        background: #161616;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 30px auto;
+    }
+
+    .head {
+        width: 250px;
+        height: 178px;
+        margin: 28px 38px 0px 38px;
+        padding: 0%;
+    }
+
+    .head h1 {
+        font-size: 22px;
+        border: 1px solid #161616;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .head p {
+        width: 250px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .head button {
+        width: 180px;
+        height: 50px;
+        color: white;
+        background-color: #DD0000;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-left: 40px;
+    }
+
+    .player img {
+        width: 233px;
+        height: 245px;
+        position: absolute;
+        left: 84px;
+        top: 275px;
+    }
+
+    /* section style for mobile device */
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .container {
+        background-color: white;
+        margin: 0%;
+    }
+
+    .aside-link a {
+        border: 2px solid rgb(230, 217, 217);
+        background-color: white;
+    }
+
+    .container2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+
+    }
+
+    /* footer for mobile device */
+
+    footer {
+        width: 100%;
+        height: 300px;
+        background-color: #161616;
+    }
+
+    .Goal {
+        justify-content: center;
+    }
+
+    .Goal h1 {
+        width: 52px;
+        height: 33px;
+        padding: 24px;
+        margin: 0%;
+        margin-left: 35%;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-content: center;
+        justify-items: center;
+    }
+
+    .footer ul {
+        padding: 0%;
+    }
+
+    .footer ul li {
+        display: block;
+        list-style: none;
+        text-align: center;
+        margin: 0%;
+        margin-top: 10px;
+    }
+
+    .footer ul li a {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+}
