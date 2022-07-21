@@ -298,7 +298,7 @@ footer {
     }
 
     .aside-link a {
-        border: 2px solid rgb(230, 217, 217);
+        border: 2px solid #e6d9d9;
         background-color: white;
     }
 
@@ -354,4 +354,44 @@ footer {
     }
 }
 
-@media screen and (min-width: 577px) {}
+@media screen and (min-width: 577px) and(max-width:992px) {
+
+    .head {
+        width: 80%;
+        padding-top: 40px;
+        color: white;
+    }
+
+    .head h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .head p {
+        width: 400px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .head button {
+        width: 187px;
+        height: 56px;
+        color: white;
+        background-color: #DD0000;
+        font-size: 20px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .player img {
+        width: 581px;
+        height: 613px;
+        margin-top: 33px;
+    }
+
+
+    .the-earth {
+        font-size: 40px;
+    }
+}
