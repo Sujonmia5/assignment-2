@@ -1,4 +1,6 @@
-/* Google font import */
+/*----------------------
+    Google font import 
+------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab&display=swap');
 
 body {
@@ -8,7 +10,9 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-/* header style */
+/*--------------------
+    header style 
+---------------------*/
 .top-site {
     background-color: #161616;
     display: flex;
@@ -54,7 +58,9 @@ body {
     margin-top: 33px;
 }
 
-/* section style */
+/*--------------------- 
+    section style 
+----------------------*/
 section {
     display: flex;
     margin-top: 130px;
@@ -101,7 +107,9 @@ section {
     color: white;
 }
 
-/* playlist section */
+/*-----------------------
+    playlist section 
+-------------------------*/
 
 .container2 {
     display: grid;
@@ -157,6 +165,9 @@ p {
     margin-top: 10px;
 }
 
+/*----------------
+    footer style
+------------------*/
 footer {
     width: 100%;
     height: 400px;
@@ -226,7 +237,9 @@ footer {
 
 @media only screen and (max-width:576px) {
 
-    /* head style for mobile device */
+    /*----------------------------------
+        head style for mobile device 
+    -----------------------------------*/
 
     .top-site {
         width: 334px;
@@ -286,7 +299,9 @@ footer {
         position: relative;
     }
 
-    /* section style for mobile device */
+    /*-----------------------------------
+        section style for mobile device 
+    ------------------------------------*/
 
     section {
         display: grid;
@@ -312,7 +327,9 @@ footer {
 
     }
 
-    /* footer for mobile device */
+    /*-----------------------------
+        footer for mobile device
+    ------------------------------*/
 
     footer {
         width: 100%;
